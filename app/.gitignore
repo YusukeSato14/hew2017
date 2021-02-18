@@ -1,0 +1,10 @@
+.env
+.idea/
+js_back/
+icon/*
+!icon/default.png
+imgs/*
+!imgs/background.png
+!imgs/background4.jpg
+drawing_backup.php
+drawing_back.php

@@ -1,0 +1,185 @@
+@charset "utf-8";
+body {
+ width: 100%;
+ margin: 0 auto;
+ color: #00bcd4;
+ background: url(../imgs/background4.jpg) repeat-y;
+}
+
+div {
+  display: block;
+}
+
+img {
+  width: 200px;
+  border: outset 5px #cd853f;
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  //width: 200px;
+}
+
+#profile img {
+  width: 100px;
+  margin: 10px 0 0 0;
+  border: solid 3px #00bcd4;
+  border-radius: 10px;
+}
+
+#icon img {
+  margin-top: 10px;
+  width: 100px;
+  float: left;
+  border: solid 3px #00bcd4;
+  border-radius: 10px;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  position: absolute;
+  background-color: #fdd35c;
+}
+
+#logo {
+  width: 40%;
+  height: 100px;
+  float: left;
+  padding-left: 10px;
+  margin: 0 0 0 20px;
+}
+
+#profile {
+  height: 100px;
+  margin: 0;
+  padding-left: 5px;
+  text-align: left;
+}
+
+#profile_box {
+  float: left;
+  margin: 0 0 0 15px;
+}
+
+#buttons {
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+#wrap {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+#follows{
+  width: 1000px;
+  float: left;
+  margin: 135px 0 30px 0;
+}
+
+.items{
+  width: 250px;
+  float: left;
+  margin: 0 0 10px 0;
+}
+
+.items p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.unfollow {
+  margin: 0 75px;
+}
+
+.icons {
+  border: solid 3px #00bcd4;
+  border-radius: 10px;
+}
+
+#setting {
+  width: 500px;
+  margin: 135px 0 0 0;
+  float: right;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#profile {
+  padding: 0;
+}
+
+.settingBtn {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+#textbox {
+  width: 200px;
+  height: 20px;
+  font-size: 20px;
+  clear: both;
+  border: solid 2px #00bcd4;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  clear: both;
+  resize: none;
+  border: solid 2px #00bcd4;
+  border-radius: 5px;
+}
+
+#profbtns {
+  padding-left: 35px;
+}
+
+.btn, button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+        border-radius: 5px;
+        text-align: center;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ffe666;
+    transition: .4s;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #00bcd4;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#footer {
+  clear: both;
+  background-color: #ffe666;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  position:fixed;
+  bottom:0;
+}

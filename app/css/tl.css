@@ -1,0 +1,202 @@
+@charset "utf-8";
+body {
+ //text-align:center;
+ width: 100%;
+ margin: 0 auto;
+ //overflow-x: hidden;
+ color: #00bcd4;
+ background: url(../imgs/background4.jpg) no-repeat;
+}
+
+div {
+  display: block;
+}
+
+img {
+  width: 400px;
+  border: outset 8px #cd853f;
+  //float: left;
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  width: 100%;
+  word-break : break-all;
+}
+
+#profile img {
+  width: 100px;
+  margin: 10px 0 0 0;
+  border: solid 3px #00bcd4;
+  border-radius: 10px;
+}
+
+#icon img {
+  margin-top: 10px;
+  width: 100px;
+  float: left;
+  border: solid 3px #00bcd4;
+  border-radius: 10px;
+}
+
+
+#header {
+  width: 100%;
+  height: 100px;
+  //float: left;
+  //margin: 0;
+  position: absolute;
+  background-color: #fdd35c;
+  /* background: #fd3434; */
+}
+
+/* #list_nav {
+  width:980px;
+  margin:0;
+  display:table;
+}
+
+#list_nav li {
+  display:table-cell;
+  vertical-align: top;
+} */
+
+#logo {
+  width: 40%;
+  height: 100px;
+  float: left;
+  padding-left: 10px;
+  margin: 0 0 0 20px;
+}
+
+#profile {
+  //width: 60%;
+  height: 100px;
+  margin: 0;
+  padding-left: 5px;
+  text-align: left;
+  //float: right;
+  //border: solid 1px #000;
+}
+
+#profile_box {
+  width: 240px;
+  float: left;
+  margin: 0 0 0 15px;
+}
+
+#buttons {
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+#wrap {
+  margin: 0;
+}
+
+.btn, button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+        border-radius: 5px;
+        text-align: center;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ffe666;
+    transition: .4s;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+.btn:hover {
+    background: #00bcd4;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#tl {
+  margin: 0;
+  clear: both;
+  height: 574px;
+//overflow-x: scroll;
+  overflow-y: hidden;
+  padding-bottom: 150px;
+}
+
+.gallery {
+  padding: 35px;
+  background: #fff;
+}
+
+.scroll_lst {
+//  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 90px;
+  margin: 140px 5px 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*
+.items {
+  width: 400px;
+  height: 200px;
+  float: left;
+  margin: 160px 100px 0 0;
+  position: relative;
+  //display: inline-block;
+  //vertical-align: top;   /* 上端を揃える
+}
+*/
+.items {
+    margin-right: 40px;
+    display: inline-block;
+    width: 500px;
+}
+
+.caption {
+  color: #000;
+  background: #fff;
+  width: 200px;
+  height: 75px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#snsbtn {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  //padding: 15px;
+  /* word-break: ; */
+  margin: 0;
+  display: none;
+}
+
+
+#footer {
+  clear: both;
+  background-color: #ffe666;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}

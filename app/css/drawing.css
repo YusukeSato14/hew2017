@@ -1,0 +1,234 @@
+@charset "utf-8";
+body {
+ width: auto;
+ margin:0 auto;
+ background: url(../imgs/background4.jpg);
+ color: #00bcd4;
+ //color: #b3f5de;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+}
+
+#canvas {
+  border:1px solid gray;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  //float: left;
+  //margin: 10px;
+  position: absolute;
+  background-color: #fdd35c;
+}
+
+#logo {
+  width: 40%;
+  height: 100px;
+  float: left;
+  padding-left: 10px;
+  margin: 0 0 0 20px;
+}
+
+#profile {
+  //width: 60%;
+  height: 100px;
+  margin: 0;
+  padding-left: 5px;
+  text-align: left;
+  //float: right;
+  //border: solid 1px #000;
+}
+
+#profile_box {
+  float: left;
+  margin: 0 0 0 15px;
+}
+
+#icon p img {
+  margin-top: 10px;
+  width: 100px;
+  float: left;
+  border: solid 3px #00bcd4;
+  border-radius: 10px;
+}
+
+#buttons {
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+
+#wrap {
+  width: 1396px;
+  margin: 0 auto;
+}
+
+#item1 {
+  width: 475px;
+  clear:left;
+  float:left;
+  margin: 115px 0 0 20px;
+}
+
+#item1 label {
+  padding: 2px 5px;
+  background: #ffe666;
+  font-weight: bold;
+  border-radius: 5px;
+  vertical-align: top;
+}
+
+#lineWidth {
+  width: 130px;
+  height: 20px;
+}
+
+#alpha {
+  width: 130px;
+  height: 20px;
+}
+
+#item2 {
+  width: 400px;
+  height: 20px;
+  margin: 115px 0 0 0;
+  padding-left: 50px;
+  display: inline-flex;
+  text-align: right;
+}
+
+#item3 {
+  width: 450px;
+  height: 20px;
+  float: right;
+  margin: 112px 0 0 0;
+}
+
+#contentLeft {
+  clear: both;
+  float: left;
+  width: 400px;
+  margin: 0 68px 0 80px;
+}
+
+#contentRight {
+  float: right;
+  margin: 5px 80px;
+  width: 688px;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+li {
+  width: 30px;
+  height: 30px;
+  display:inline-block;
+
+}
+
+textarea {
+  width: 190px;
+  height: 16px;
+  margin: 0 0 5px 10px;
+  vertical-align: top;
+  border: solid 2px #00bcd4;
+  resize: none;
+  border-radius: 5px;
+}
+
+#textbox {
+  vertical-align: top;
+  border: solid 2px #00bcd4;
+  border-radius: 5px;
+}
+
+.btn, button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+        border-radius: 5px;
+        text-align: center;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ffe666;
+    transition: .4s;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+.btn:hover {
+    background: #00bcd4;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#footer {
+  clear: both;
+  background-color: #ffe666;
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+@media screen and (max-width:960px){
+  #header {
+    width: 100%;
+    height: 100px;
+    //float: left;
+    //margin: 10px;
+    position: absolute;
+    background-color: #fdd35c;
+  }
+
+  #logo {
+    width: 400px;
+    height: 100px;
+    float: left;
+    padding-left: 10px;
+    margin: 0 0 0 20px;
+  }
+
+  #profile {
+    //width: 560px;
+    height: 100px;
+    margin: 0;
+    padding-left: 5px;
+    text-align: left;
+    //float: right;
+    //border: solid 1px #000;
+  }
+
+  #profile_box {
+    float: left;
+    margin: 0 0 0 15px;
+  }
+
+  #icon p img {
+    margin-top: 10px;
+    width: 100px;
+    float: left;
+    border: solid 3px #00bcd4;
+    border-radius: 10px;
+  }
+
+
+}
